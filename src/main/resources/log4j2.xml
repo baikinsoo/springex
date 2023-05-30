@@ -18,9 +18,14 @@
             <AppenderRef ref="console"/>
         </Logger>
 
+        <Logger name="org.zerock.springex.mapper" level="TRACE" additivity="false">
+            <appender-ref ref="console"/>
+        </Logger>
+
         <root level="INFO" additivity="false">
             <AppenderRef ref="console"/>
         </root>
+
     </Loggers>
 
 </Configuration>
